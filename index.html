@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validasi</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      form {
+        width: 600px;
+        padding: 30px;
+      }
+      label {
+        display: block;
+      }
+      div {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FORM VALIDASI</h1>
+    <form action="" method="get" autocomplete="off">
+      <div>
+        <label for="nama">Masukan Nama Anda :</label>
+        <input type="text" name="nama" id="nama" autofocus required />
+      </div>
+      <div>
+        <label for="email">Masukan email anda :</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="nohp">Masukan No HP :</label>
+        <input type="tel" name="nohp" id="nohp" />
+      </div>
+      <div>
+        <label for="website">Masukan URL website :</label>
+        <input type="url" name="website" id="website" />
+      </div>
+      <div>
+        <label for="angka">Masukan angka :</label>
+        <input type="number" name="angka" id="angka" />
+      </div>
+      <div>
+        <label for="slider">Masukan angka</label>
+        <input type="range" name="slider" id="slider" />
+      </div>
+      <div>
+        <label for="tanggal">Masukan tanggal</label>
+        <input type="date" name="tanggal" id="tanggal" />
+      </div>
+      <div>
+        <label for="warna">Masukan warna</label>
+        <input type="color" name="warna" id="warna" />
+      </div>
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
